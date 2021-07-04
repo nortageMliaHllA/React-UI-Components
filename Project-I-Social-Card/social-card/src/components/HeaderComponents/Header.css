@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.HeaderContent {
+    margin: 1.5rem;
+}
+
+.HeaderContent p {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.HeaderContainer .HeaderContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContent .HeaderTitle .fullname {
+    font-weight: 700;
+}
+
+.HeaderContent .HeaderTitle span {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.HeaderContainer img {
+    width: 10%;
+    height: 10%;
+    margin-top: 1.5rem;
+}
+
